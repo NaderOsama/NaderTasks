@@ -10,17 +10,17 @@ void main(List<String> arguments) {
 
   String Expression = stdin.readLineSync()!;
   switch (Expression) {
-    case"Sum":
+    case"+":
       int Sum = numberOne + numberTwo;
       print("The sum of the two numbers: $Sum");
       break;
 
-    case"Multiplying":
+    case"*":
       int Multiplying = numberOne * numberTwo;
       print("The Multiplying of the two numbers: $Multiplying");
       break;
 
-    case"division":
+    case"/":
       double division = numberOne / numberTwo;
       print("The division of the two numbers: $division");
       break;
